@@ -43,8 +43,8 @@
     });
   }
 
-  /* Scroll reveals */
-  var reveals = document.querySelectorAll(".reveal");
+  /* Scroll reveals (plus the AIRA console line animation) */
+  var targets = document.querySelectorAll(".reveal, .console");
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(
       function (entries) {
@@ -57,9 +57,9 @@
       },
       { threshold: 0.12, rootMargin: "0px 0px -6% 0px" }
     );
-    reveals.forEach(function (el) { io.observe(el); });
+    targets.forEach(function (el) { io.observe(el); });
   } else {
-    reveals.forEach(function (el) { el.classList.add("is-visible"); });
+    targets.forEach(function (el) { el.classList.add("is-visible"); });
   }
 
   /* Contact form → prefilled email (no backend required).
