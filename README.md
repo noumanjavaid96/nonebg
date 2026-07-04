@@ -20,9 +20,9 @@ founder):
 - High luminance contrast throughout (cobalt on paper ≈ 7:1, ink on paper ≈ 15:1).
 - Identity: blueprint grid, a self-drawing suspension-bridge schematic in the
   hero, technical corner marks, a rotating "operator-led" stamp.
-- Type: [Fraunces](https://fonts.google.com/specimen/Fraunces) display serif +
-  [Manrope](https://fonts.google.com/specimen/Manrope), from Google Fonts with
-  system fallbacks.
+- Type: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
+  (display) + [Manrope](https://fonts.google.com/specimen/Manrope) (body), from
+  Google Fonts with system fallbacks.
 - All motion is disabled automatically under `prefers-reduced-motion`.
 
 ## Structure
